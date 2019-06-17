@@ -4,7 +4,7 @@
 -----------------------------------------------------------------*/
 
 :root {
-	--themecolor: #267DF4;
+	--themecolor: #b66d6f;
 }
 
 .slider-features ul li:not(:last-child) {
@@ -318,7 +318,7 @@ ol.list-preparation li:not(:first-child) { padding-top: 18px; }
 		top: 50%;
 		right: 0;
 		height: 60px;
-		width: 42%;
+		width: 45%;
 		transform: translateY(-50%);
 		background-color: rgba(255, 255, 255, 1);
 		box-shadow: 0 0.5rem 1.3rem rgba(0, 0, 0, 0.2);
