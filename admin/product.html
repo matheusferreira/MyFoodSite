@@ -211,9 +211,9 @@
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="product.html">Products</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="ingredient.html">Ingredients</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="ingredient.html">Nutrients</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="products.html">Products</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="ingredients.html">Ingredients</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="ingredients.html">Nutrients</a></li>
                 </ul>
                 </div>
             </li>
@@ -293,7 +293,7 @@
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Ingredient Overview</h4>
+                  <h4 class="card-title">Product Overview</h4>
                   
                   <!--<div class="row mt-3">
                     <div class="col-6 pr-1">
@@ -315,9 +315,34 @@
               <div class="card">
                 <div class="card-body">
                   <!--<h4 class="card-title"></h4>-->
+                 
+                    <p class="card-description">
+                      <h4 class="text-success">Imagem</h4>
+                    </p>
+                    <div class="d-flex">
+                    <div class="d-flex align-items-center mr-4 text-muted">
+                      <img src="images/products/cocasemacucar.png" width="40%" />
+                    </div>
+                    
+
+                    <div class="d-flex align-items-center text-muted">
+                      <button class="btn btn-gradient-primary">Trocar Imagem</button>
+                    </div>
+                  </div>
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                  <!--<h4 class="card-title"></h4>-->
                   <form class="form-sample">
                     <p class="card-description">
-                      Informações Tecnicas
+                      <h4 class="text-success">Informações Tecnicas</h4>
                     </p>
                     <div class="d-flex">
                     <div class="d-flex align-items-center mr-4 text-muted">
@@ -336,33 +361,15 @@
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Name</label>
                           <div class="col-sm-9">
-                            <input type="text" class="form-control" readonly value="Aspartame (951)" />
+                            <input type="text" class="form-control" readonly value="Coca-Cola Sem Açucar Lata 350ml" />
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Nome (PtBR)</label>
+                          <label class="col-sm-3 col-form-label">Valor energético (kcal)</label>
                           <div class="col-sm-9">
-                            <input type="text" class="form-control" readonly value="Aspartame" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Encode / INSS</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" readonly value="E951" />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Category "FAO"</label>
-                          <div class="col-sm-9">
-                            <input class="form-control" readonly value="Adoçantes ou Edulcorante artificial, Flavorizantes"/>
+                            <input type="text" class="form-control" readonly value="0kcal" />
                           </div>
                         </div>
                       </div>
@@ -370,17 +377,35 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Toast1</label>
+                          <label class="col-sm-3 col-form-label">Carboidratos</label>
                           <div class="col-sm-9">
-                            <textarea class="form-control" readonly />Adoçantes ou Edulcorantes: Substâncias sem ou quase sem calorias que servem para dar um sabor doce ao alimento. Pode ser natural ou artificial/sintético.</textarea>
+                            <input type="text" class="form-control" readonly value="0" />
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Sinônimos</label>
+                          <label class="col-sm-3 col-form-label">Gorduras totais</label>
                           <div class="col-sm-9">
-                            <input class="form-control" readonly value="APM, Aspartamo, INS 951"/>
+                            <input class="form-control" readonly value="0"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Gorduras saturadas e gorduras trans</label>
+                          <div class="col-sm-9">
+                            <input class="form-control" readonly value="0"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Sódio</label>
+                          <div class="col-sm-9">
+                            <input class="form-control" readonly value="49mg"/>
                           </div>
                           
                         </div>
@@ -390,48 +415,15 @@
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Quantidade Ideal</label>
+                          <label class="col-sm-3 col-form-label">Porção</label>
                           <div class="col-sm-9">
-                            <input type="text" class="form-control" readonly value="Dose diária aceitável: 40mg por kg de peso corporal (Europa), 50mg (EUA)" />
+                            <input type="text" class="form-control" readonly value="350ml" />
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Origem </label>
-                          <div class="col-sm-9">
-                            <select class="form-control" readonly>
-                              <option>Química</option>
-                              <option>Natural</option>
-                              <option>Animal</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
+                      
                     </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Processamento do Produto</label>
-                          <div class="col-sm-9">
-                            <select class="form-control" readonly>
-                              <option>-</option>
-                              <option>In Natura</option>
-                              <option>Processado</option>
-                              <option>Ultraprocessado</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Categoria de Alimentos onde pode ser encontrado FAO</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" value="" readonly />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    
                   </form>
                 </div>
               </div>
@@ -444,7 +436,7 @@
                   <!--<h4 class="card-title"></h4>-->
                   <form class="form-sample">
                     <p class="card-description">
-                      Detalhes Adicionais (Consumidos pelo APP)
+                      <h4 class="text-success">Descrição</h4>
                     </p>
                     <div class="d-flex">
                     <div class="d-flex align-items-center mr-4 text-muted">
@@ -459,99 +451,17 @@
                   </div>
                   <br>
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-md-12">
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Sobre</label>
-                          <div class="col-sm-9">
-                            <textarea type="text" class="form-control" readonly  />O aspartamo ou aspartame é um aditivo alimentar utilizado para substituir o açúcar comum, é um adoçante artificial. Ele tem maior poder de adoçar (cerca de 200 vezes maior que a sacarose). É formado quimicamente por dois aminoácidos (L-fenilalanina e L-aspártico).</textarea>
+                          <div class="col-sm-12">
+                            <textarea type="text" class="form-control" readonly  />A Coca-Cola Sem Açúcar é um refrigerante que não contém calorias! Com certeza você já se perguntou: ¿Então, de onde vem aquele gostinho doce? ¿ A Coca-Cola Sem Açúcar é produzida especialmente com adoçantes para manter o delicioso sabor de Coca-Cola porém com 0% Açucar. Uma garrafa de Coca-Cola Sem Açúcar 2,25 litros é perfeita para matar sua sede a qualquer hora do dia!</textarea>
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Curiosidades</label>
-                          <div class="col-sm-9">
-                            <textarea type="text" class="form-control" readonly  /> </textarea>
-
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Encontrado Em</label>
-                          <div class="col-sm-9">
-                            <textarea type="text" class="form-control" readonly  />Bebidas, iogurtes, doces, chocolates diets, light, zero etc. Para identificar todos os produtos que contêm Aspartame, leia os rótulos dos produtos e veja se ele está presente na composiçao. Pode ser utilizado em vários tipos de alimentos. Lista completa na planilha  ADOÇANTES. (FAO/WHO) </textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Efeitos Benéficos</label>
-                          <div class="col-sm-9">
-                            <textarea type="text" class="form-control" readonly  />Sem calorias, não afetam a glicose sanguínea nem a resposta da insulina (em diabéticos por exemplo) </textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Efeitos Maléficos</label>
-                          <div class="col-sm-9">
-                            <textarea class="form-control" readonly />Podem causar ou piorar sintomas de Dores de cabeça, depressão, palpitações cardíacas, perda de memória, tumores cerebrais, esclerose múltipla, sintomas semelhantes aos da fibromialgia, perda de sensação ou dores repentinas nos membros inferiores, perda de equilíbrio, vertigens, ataques de ansiedade, fadiga crônica, perda de visão, ver pequenas luzes flutuantes piscando, descolamento de retina, ataques , espasmos musculares, palpitações cardíacas etc. (Não encontrei nada sobre isso RG)</textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Grupos que devem evitar</label>
-                          <div class="col-sm-9">
-                            <input class="form-control" readonly value="Pessoas portadoras de fenilcetonúria."/>
-                          </div>
-                          
-                        </div>
-                      </div>
+                      
                     </div>
                     
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Polêmicas</label>
-                          <div class="col-sm-9">
-                            <textarea class="form-control" readonly />Potencialmente cancerígeno</textarea>
-                          </div>
-                          
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Estudos </label>
-                          <div class="col-sm-9">
-                            <textarea class="form-control" readonly />Novos estudos apontam que alteração da flora intestinal, que leva a distúrbios metabólicos que causam o desenvolvimento de intolerância a glicose.</textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Notícias</label>
-                          <div class="col-sm-9">
-                            <textarea class="form-control" readonly /></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Riscos</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" value="Baixos" readonly />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </form>
                 </div>
               </div>
@@ -564,72 +474,50 @@
                   <!--<h4 class="card-title"></h4>-->
                   <form class="form-sample">
                     <p class="card-description">
-                      Classificações
+                      <h4 class="text-success">Ingredientes</h4>
                     </p>
                     <div class="d-flex">
-                    <div class="d-flex align-items-center mr-4 text-muted">
-                      <i class="mdi mdi-pencil-lock icon-sm mr-2"></i>
-                      <span>Read Only</span>
-                    </div>
-                    
-
-                    <div class="d-flex align-items-center text-muted">
-                      <input class="bt-switch" name="card3" type="checkbox" checked="" data-on-text="Yes" data-off-text="No">
-                    </div>
+                      
+                        
+                          <div class="d-flex align-items-center mr-4 text-muted">
+                            <i class="mdi mdi-pencil-lock icon-sm mr-2"></i>
+                            <span>Editar</span>
+                          </div>
+                          
+                        
+                        <div class="d-flex ml-auto">
+                          <button class="btn btn-gradient-primary">Adicionar</button>
+                        </div>
+                      
                   </div>
                   <br>
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">ANVISA</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" readonly value="-" />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">FDA</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" readonly value="-" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Europeia</label>
-                          <div class="col-sm-9">
-                            <input type="text" class="form-control" readonly value="E951" />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Especialistas</label>
-                          <div class="col-sm-9">
-                            <input class="form-control" readonly value="Adoçantes ou Edulcorante artificial, Flavorizantes"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Estudos Científicos (links, pubmed, etc.)</label>
-                          <div class="col-sm-9">
-                            <textarea class="form-control" readonly />-</textarea>
-                          </div>
+                          <ul class="list-arrow">
+                            
+                            <li><a href="ingredient.html">Água gaseificada</a></li>
+                            <li><a href="ingredient.html">Extrato de noz de cola</a></li>
+                            <li><a href="ingredient.html">Cafeína, aroma natural</a></li>
+                            <li><a href="ingredient.html">Corante caramelo IV</a></li>
+                            <li><a href="ingredient.html">Acidulante ácido fosfórico</a></li>
+                            <li><a href="ingredient.html">Edulcorantes ciclamato de sódio (27 mg)</a></li>
+                            <li><a href="ingredient.html">Acesulfame de potássio (15 mg)</a></li>
+                            <li><a href="ingredient.html">Aspartame (12 mg) por 100 ml</a></li>
+                            <li><a href="ingredient.html">Conservador benzoato de sódio</a></li>
+                            <li><a href="ingredient.html">Regulador de acidez citrato de sódio</a></li>
+                            <li><a href="ingredient.html"><mark>Fenilalanina</mark></a></li>
+                          </ul>
+                          
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group row">
                           
-                          
                         </div>
                       </div>
                     </div>
+                    
                   </form>
                 </div>
               </div>
